@@ -8,14 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var fromConvert = 0
+    @FocusState private var amountIsFocused: Bool
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            Form {
+                Section {
+                    TextField("Enter number", value: $fromConvert, format: .number)
+                } header: {
+                    Text("Enter measures")
+                }
+                .focused($amountIsFocused)
+                .keyboardType(.decimalPad)
+                
+                
+                Section {
+                    
+                } header: {
+                    Text("Enter measures")
+                }
+                
+                Section {
+                    
+                } header: {
+                    Text("Enter measures")
+                } .navigationTitle("Convert")
+                    .toolbar {
+                        ToolbarItemGroup(placement: .keyboard) {
+                            Spacer()
+                            Button("Done") {
+                                amountIsFocused = false
+                            }
+                        }
+                    }
+            }
         }
-        .padding()
     }
 }
 
