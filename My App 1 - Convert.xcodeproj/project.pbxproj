@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B78A0CBC2A73B69900B2E03B /* Convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78A0CBC2A73B69900B2E03B /* My App 1 - Convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My App 1 - Convert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78A0CBF2A73B69900B2E03B /* ConvertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertApp.swift; sourceTree = "<group>"; };
 		B78A0CC12A73B69900B2E03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B78A0CC32A73B69A00B2E03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		B78A0CBD2A73B69900B2E03B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B78A0CBC2A73B69900B2E03B /* Convert.app */,
+				B78A0CBC2A73B69900B2E03B /* My App 1 - Convert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B78A0CBB2A73B69900B2E03B /* Convert */ = {
+		B78A0CBB2A73B69900B2E03B /* My App 1 - Convert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B78A0CCA2A73B69A00B2E03B /* Build configuration list for PBXNativeTarget "Convert" */;
+			buildConfigurationList = B78A0CCA2A73B69A00B2E03B /* Build configuration list for PBXNativeTarget "My App 1 - Convert" */;
 			buildPhases = (
 				B78A0CB82A73B69900B2E03B /* Sources */,
 				B78A0CB92A73B69900B2E03B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Convert;
+			name = "My App 1 - Convert";
 			productName = Convert;
-			productReference = B78A0CBC2A73B69900B2E03B /* Convert.app */;
+			productReference = B78A0CBC2A73B69900B2E03B /* My App 1 - Convert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B78A0CB72A73B69900B2E03B /* Build configuration list for PBXProject "Convert" */;
+			buildConfigurationList = B78A0CB72A73B69900B2E03B /* Build configuration list for PBXProject "My App 1 - Convert" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B78A0CBB2A73B69900B2E03B /* Convert */,
+				B78A0CBB2A73B69900B2E03B /* My App 1 - Convert */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B78A0CB72A73B69900B2E03B /* Build configuration list for PBXProject "Convert" */ = {
+		B78A0CB72A73B69900B2E03B /* Build configuration list for PBXProject "My App 1 - Convert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B78A0CC82A73B69A00B2E03B /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B78A0CCA2A73B69A00B2E03B /* Build configuration list for PBXNativeTarget "Convert" */ = {
+		B78A0CCA2A73B69A00B2E03B /* Build configuration list for PBXNativeTarget "My App 1 - Convert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B78A0CCB2A73B69A00B2E03B /* Debug */,
